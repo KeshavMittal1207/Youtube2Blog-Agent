@@ -24,15 +24,15 @@ This project showcases how AI agents can autonomously:
 ---
 
 ## 🧱 Project Structure
-youtube-blog-agent/
-├── agents/
-│ ├── youtube_tools.py # Fetches YouTube data
-│ ├── blog_generator.py # LLM-based blog generation
-│ └── revision_agent.py # Handles revision instructions
-├── workflow.py # LangGraph state machine
-├── main.py # Entry point
-├── config.py # API keys and config loader
-├── requirements.txt
-├── .env.example # Environment variable template
-└── README.md
+  youtube-blog-agent/
+  ├── agents/
+  │ ├── youtube_tools.py # Fetches YouTube data
+  │ ├── blog_generator.py # LLM-based blog generation
+  │ └── revision_agent.py # Handles revision instructions
+  ├── workflow.py # LangGraph state machine
+  ├── main.py # Entry point
+  ├── config.py # API keys and config loader
+  ├── requirements.txt
+  ├── .env.example # Environment variable template
+  └── README.md
 
