@@ -1,0 +1,8 @@
+langgraph
+langchain
+openai
+youtube-transcript-api
+typing
+dotenv
+huggingface-hub
+requests
