@@ -1,8 +1,12 @@
 langgraph
 langchain
+langchain-google-genai
 openai
 youtube-transcript-api
 typing
 dotenv
 huggingface-hub
 requests
+fastapi
+uvicorn
+streamlit

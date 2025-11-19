@@ -5,4 +5,4 @@ load_dotenv()
 
 DEV_API_KEY=os.getenv("DEV_API_KEY") 
 HUGGING_FACE_KEY=os.getenv("HUGGING_FACE_KEY")
-print(HUGGING_FACE_KEY)
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")

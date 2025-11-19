@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yt2blog-app
+  label: yt2blog-app
+  namespace: youtube2blog
+spec:
+  selector:
+    matchLabels:
+      app: yt2blog-app
+  template:
+    metadata:
+      namespace: youtube2blog
+      labels:
+        app: yt2blog-app
+    spec:
+      containers:
+      - name: yt2blog-app
+        image: keshavmittal06/youtube2blog:latest
+        ports:
+        - containerPort: 8501
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: yt2blog-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: yt2blog-service
+  ports:
+    - protocol: TCP
+      port: 8501
+      targetPort: 8501
+
+---
+
+kind: Namespace
+metadata:
+  name: youtube2blog

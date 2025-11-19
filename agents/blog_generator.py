@@ -1,4 +1,3 @@
-
 from config import HUGGING_FACE_KEY
 from huggingface_hub import InferenceClient
 
@@ -22,8 +21,7 @@ Transcript:
             "content": prompt
         }
     ],
-)
-    
+    )
     return response.choices[0].message.content
 
 
