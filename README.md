@@ -1,5 +1,4 @@
 # 🧠🎥 YouTube-to-Blog: Agentic AI Workflow with LangGraph
-
 Transform **YouTube videos into polished, SEO-friendly blog posts** with a fully autonomous Agentic AI workflow powered by LangGraph and LangChain.
 
 This project showcases how AI agents can autonomously:
